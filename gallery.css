@@ -1,0 +1,43 @@
+.gallery {
+  background-color: azure;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  flex-direction: column;
+}
+.heading-images {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 45px;
+  color: orange;
+  font-weight: 800;
+}
+.restarant-img {
+  width: auto;
+  border: 2px solid orange;
+  padding: 1px;
+}
+.restarant-img p {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+.restarant-img img {
+  width: 300px;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}

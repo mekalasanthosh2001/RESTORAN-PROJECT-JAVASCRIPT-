@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>js project-1</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./about.css"/>
+
   </head>
   <body>
     <!-- section-1 -->
@@ -21,10 +23,10 @@
           </div>
             <ul class="ul-li">
               <li ><a href="">Home</a></li>
-              <li ><a href="">About</a></li>
-              <li ><a href="">Restarent's</a></li>
-              <li ><a href="">Menu</a></li>
-              <li ><a href="">contact Us</a></li>
+              <li ><a href="/js project-1/About.html">About</a></li>
+              <li ><a href="./Gallery.html">Restarent's</a></li>
+              <li ><a href="/js project-1/foodmenu.html">Menu</a></li>
+              <li ><a href="/js project-1/contactus.html">contact Us</a></li>
               <div class="order-now" id="order-nowb"><a href="#section-3" >Order Now</a></div>
               <div class="closeburger" >
                 <img src="./imgs/download open.png" alt=""/>
@@ -57,79 +59,60 @@
       </div>
     </section>
 
-    <!-- section-3 -->
-    <section class="form-section" id="section-3">
-      <div class="section-2">
-        <form class="form-1">
-          <!-- name -->
-          <h1>Person Details</h1>
-
-          <div class="name-sec">
-            <label for="name" class="lable-name">Name </label>
-            <input type="text" id="uName" placeholder="Enter Your Name" />
-          </div>
-          <!-- email -->
-          <div class="name-sec">
-            <label for="email" class="lable-name">Email </label>
-            <input type="email" id="uEmail" placeholder="Enter Your Email" />
-          </div>
-          <!-- phone -->
-          <div class="name-sec">
-            <label for="phone" class="lable-name">Mobile </label>
-            <input type="tel" id="uTel" placeholder="+9195******99" />
-          </div>
-
-          <!-- place -->
-          <div class="name-sec">
-            <label for="place" class="lable-name">Place </label>
-            <input type="text" id="uPlace" placeholder=" current Location" />
-          </div>
-          <!-- End persion-detail -->
-          <!--  Menu list -->
-          <h1>Menu</h1>
-
-          <!-- veg-biryani -->
-          <div class="name-sec">
-            <label for="veg-biryani" class="lable-name">Veg-Biryani </label>
-            <input type="text" id="veg-B" placeholder=" &#8377; Enter Price" />
-          </div>
-          <!-- Non-Veg-biryani -->
-          <div class="name-sec">
-            <label for="veg-biryani" class="lable-name">Non-Veg-Biryani </label>
-            <input type="text" id="Non-veg-B" placeholder=" &#8377; Enter Price" />
-          </div>
-          <!-- mandhi -->
-          <div class="name-sec">
-            <label for="mandi" class="lable-name">Mandhi </label>
-            <input type="text" id="Mandhi" placeholder=" &#8377; Enter Price" />
-          </div>
-          <!-- white-Rice -->
-          <div class="name-sec">
-            <label for="white-Rice" class="lable-name">white-Rice </label>
-            <input type="text" id="White-R" placeholder=" &#8377; Enter Price" />
-          </div>
-          <!-- white-Rice -->
-          <div class="name-sec">
-            <label for="gstt" class="lable-name">Gst</label>
-            <input type="text" id="gst" placeholder=" 18%" />
-          </div>
-
-          <div class="btn">
-            <button onclick="myresult()" type="button" id="getResult">
-              Payment
-            </button>
-          </div>
-        </form>
-        <!-- output-box -->
-        <div class="output-box">
-          <p id="getrslt"></p>    
-          <p id="gtrslt"></p>
+  <!-- second secton -->
 
 
-          
-        </div>
+    <!-- imageside about3 -->
+    <section class="section-3about">
+      <div class="about-sec-midile-content">
+          <div class="pera-middle">   
+              <h1>OUR STORY - FROM THE START</h1>
+              <p>Want to share your story! We would leve to read it. This is where you can tell the world shout you, about who you are, what you do what 
+                  inspired you to do this, your achievements and more: People often trust organizations they komos in and nut</p>
+         </div>
       </div>
-    </section>
+      <!-- images about-->
+      <div class="about-part2">
+          <div class="img-secttion">
+              <img src="./imgs/restarent room2.jpg" height="520" alt="">
+          </div>
+
+          <div class="sideimgcontent">
+              <div class="pera-about"> 
+                  <h1>AN ATTRACTIVE SUBHEADING TO CONTINUE:</h1>
+             <p> A celebration of Vancouver's cultural diversity and natural environment restoran Restaurant showcases ingredient led, contemporary cuisine that demonstrates the highly skilled technique and relentless drive for perfection that has become Chef David restoran's trademark </p>
+                <p>Five-time winner of Best Upscale Restaurant in Vancouver Magazine's Restaurant Awards, Hawksworth Restaurant is glamorous and elegant, vet relaxed and welcoming with warm and attentive service. Hawlosworth Restaurant is located in the heart of the city at Georgia and Howe Streets within the legendary Rosewood Hotel Georgia.</p>
+
+            </div>
+          </div>
+      </div>
+
+  <!-- about more button -->
+
+  <div class="aboutmore">
+      <div class="aboutmore-btn">
+          <button class="about-more">More Details</button>
+      </div>
+      <div class="hr-line" style="display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;">
+          <!-- <hr style="color:red;"> -->
+          <div class="hr" style="border-bottom: 3px solid rgb(6, 6, 6);
+       width: 70%; text-align: center;"></div>
+      </div>
+  </div>
+  
+  
+  </Section>
+
+
+
+
+
+
+
 
     <!-- footer section -->
     <div class="footer">
@@ -163,12 +146,14 @@
 
             Distributed By ThemeWagon</div>
     </div>
-    <script src="./index.js">
-     function myburgur(){
-       xb = document.getElementsByClassName("ul-lits");
-      
+    
 
-     }
-    </script>
+
+    <script src="./index.js">
+      function myburgur(){
+        xb = document.getElementsByClassName("ul-lits");
+      
+      }
+     </script>
   </body>
 </html>
