@@ -1,176 +1,161 @@
-.section-2about{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-  
+.section-2about {
+  width: 100%;
+  height: 50vh;
+  display: flex;
 }
-.about{
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    width: 100%;
-    display: flex;
-    gap: 10px;
+.about {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  /* padding: 1px 20px; */
 }
-.about h1{
-    font-size: 58px;
+.about h1 {
+  font-size: 58px;
 }
-.about-pera{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    gap: 10px;
+.about-pera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  gap: 10px;
 }
-.pera1{
-    color: orange;
+.pera1 {
+  color: orange;
 }
 
 /* <!-- imageside about3 --> */
 
-.about-sec-midile-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 100px 0px 10px 0px;
-    /* gap: 10px; */
+.about-sec-midile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 100px 0px 10px 0px;
+  /* gap: 10px; */
 }
-.pera-middle{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    text-align: center;
-    line-height: 0.5cm;
-    
+.pera-middle {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  line-height: 0.5cm;
 }
-.pera-middle h1{
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
-    border-bottom: 2px solid gray;
-    
+.pera-middle h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  border-bottom: 2px solid gray;
 }
-.pera-middle p{
-    font-size: 18px;
+.pera-middle p {
+  font-size: 18px;
 }
 
-.section-3about{
-    background-color: azure;
-    width: 100%;
-    /* height: 100vh; */
+.section-3about {
+  background-color: azure;
+  width: 100%;
+  /* height: 100vh; */
 }
-.about-part2{
-    width: 100%;
-    display: flex;
-    
-    
+.about-part2 {
+  width: 100%;
+  display: flex;
 }
-.img-secttion{
-    width: 50%;
-    padding: 20px;
+.img-secttion {
+  width: 50%;
+  padding: 20px;
 }
-.img-secttion img{
-    width: 100%;
-    padding: 50px;
+.img-secttion img {
+  width: 100%;
+  padding: 50px;
 }
-.sideimgcontent{
-    width: 50%;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   
+.sideimgcontent {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.pera-about{
-    display: flex;
-    gap: 40px;
-    flex-direction: column;
-    width: 80%;
-
-   
+.pera-about {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  width: 80%;
 }
-.pera-about h1{
-    color: orange;
-    font-size: 20px;
+.pera-about h1 {
+  color: orange;
+  font-size: 20px;
 }
-.pera-about p{
-    font-size: 20px;
+.pera-about p {
+  font-size: 20px;
 }
 
 /* aboutmore button */
-.aboutmore{
-    width: 100%;
-    padding: 20px;
-    
-
+.aboutmore {
+  width: 100%;
+  padding: 20px;
 }
-.aboutmore-btn{
+.aboutmore-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 20px 0px;
+}
+.about-more {
+  background-color: orange;
+  padding: 12px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+}
+
+/* media quaries */
+
+@media (max-width: 1240px) {
+  .about-part2 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px 20px 0px;
-}
-.about-more{
-    background-color: orange;
-    padding: 12px 80px;
-    border: none;
-    font-size: 18px;
-    color: white;
-    border-radius: 3px;
-    
-
-}
-
-
-/* media quaries */
-
-@media (max-width:1240px) {
-    .about-part2 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .pera-middle{
-    
+    text-align: center;
+  }
+  .pera-middle {
     width: 80%;
-}
-    .img-secttion {
-        width: 100%;
-        padding: 20px;
-    }
-    .sideimgcontent {
-        width: 100%;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  }
+  .img-secttion {
+    width: 100%;
+    padding: 20px;
+  }
+  .sideimgcontent {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-@media (max-width:340px) {
-    .img-secttion {
-        width: 120%;
-        /* padding: 20px; */
-    }
-    .sideimgcontent {
-        width: 100%;
-        
-    }
-    .img-secttion img {
-        width: 100%;
-        padding: 50px;
-    }
-    
+@media (max-width: 340px) {
+  .img-secttion {
+    width: 120%;
+    /* padding: 20px; */
+  }
+  .sideimgcontent {
+    width: 100%;
+  }
+  .img-secttion img {
+    width: 100%;
+    padding: 50px;
+  }
 }
