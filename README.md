@@ -3,6 +3,7 @@ WelCome to Restoran
 "I am creating a website called Restoran. In this website, I am using HTML, CSS, and JavaScript, along with some JavaScript functions. The website is fully responsive, meaning it looks comfortable and smooth on any device, allowing for easy handling."
 
 Hero Section:
+
 Creating a Cool Start:
 I'm making a cool section at the top of the page called the Hero Section. Inside it, I'm putting a big picture in the background. Then, on top of that, I'm adding another picture. But this picture is special because it spins around in a circle! I'm doing this by using animations and keyframes. It makes the Hero Section look really fun and exciting!
 
