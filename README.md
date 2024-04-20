@@ -1,4 +1,6 @@
-WelCome to Restoran 
+**URL:** https://mekalasanthosh2001.github.io/RESTORAN-PROJECT-JAVASCRIPT-/
+
+**WelCome to Restoran** 
 
 "I am creating a website called Restoran. In this website, I am using HTML, CSS, and JavaScript, along with some JavaScript functions. The website is fully responsive, meaning it looks comfortable and smooth on any device, allowing for easy handling."
 
@@ -22,6 +24,8 @@ Explore our restaurant section to discover a captivating online gallery featurin
 
 **Menu:
 Welcome to our Menu section, where you can explore a diverse selection of dishes categorized into breakfast, lunch, and dinner. Each category features a variety of tempting food items complete with images and prices, allowing you to choose your favorites effortlessly.
+![image](https://github.com/mekalasanthosh2001/RESTORAN-PROJECT-JAVASCRIPT-/assets/104013993/578d36f3-aaf6-4215-bb61-0d6683630d55)
+![image](https://github.com/mekalasanthosh2001/RESTORAN-PROJECT-JAVASCRIPT-/assets/104013993/7151be62-1e29-4648-8b8e-f58ceace5126)
 
 **Key Features:
 
@@ -30,6 +34,7 @@ Interactive Menu: Explore our menu with ease. Our HTML and CSS design ensure tha
 Online Ordering: Place your order directly through our website. Our JavaScript functions handle the ordering process efficiently, providing a smooth experience from selection to checkout.
 
 GST Calculation: As you add items to your order, our website dynamically calculates the Goods and Services Tax (GST) applicable to your purchase. This feature ensures transparency in pricing and eliminates any guesswork.
+![image](https://github.com/mekalasanthosh2001/RESTORAN-PROJECT-JAVASCRIPT-/assets/104013993/e5ac42dc-11d8-4ea9-b8f8-263029a135c5)
 
 Responsive Design: Whether you're using a desktop, tablet, or smartphone, Restoran's website adjusts seamlessly to your screen size, providing a comfortable browsing and ordering experience.
 
@@ -42,8 +47,10 @@ When you select items from our menu and proceed to checkout, the order total is 
 For example, if your order subtotal is 1000Rs and the GST rate is 18%, our website will automatically calculate and display the total amount due as 1180 (subtotal + GST)+ Tip(1000).
 
 
-**Contact Us:
+**Contact Us:**
+![image](https://github.com/mekalasanthosh2001/RESTORAN-PROJECT-JAVASCRIPT-/assets/104013993/60a2ea36-8db8-41bc-a855-5a1cdea85337)
 
+![image](https://github.com/mekalasanthosh2001/RESTORAN-PROJECT-JAVASCRIPT-/assets/104013993/5de29b64-e08b-4423-8dfd-87fc12ea26bd)
 
 Discover our "Contact Us" section for all your inquiries and assistance needs. Find our customer helplines conveniently listed, along with locations of all our branches in Hyderabad displayed on Google Maps for easy navigation.
 
